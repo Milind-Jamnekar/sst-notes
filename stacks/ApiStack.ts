@@ -1,5 +1,5 @@
 import { Api, Config, StackContext, use } from "sst/constructs";
-import { StorageStack } from "./MyStorage";
+import { StorageStack } from "./StorageStack";
 
 export function ApiStack({ stack }: StackContext) {
   const { table } = use(StorageStack);

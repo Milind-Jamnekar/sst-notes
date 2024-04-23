@@ -1,5 +1,5 @@
 import { SSTConfig } from "sst";
-import { StorageStack } from "./stacks/MyStorage";
+import { StorageStack } from "./stacks/StorageStack";
 import { ApiStack } from "./stacks/ApiStack";
 import { AuthStack } from "./stacks/AuthStack";
 

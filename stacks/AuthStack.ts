@@ -1,6 +1,6 @@
 import { ApiStack } from "./ApiStack";
 import * as iam from "aws-cdk-lib/aws-iam";
-import { StorageStack } from "./MyStorage";
+import { StorageStack } from "./StorageStack";
 import { Cognito, StackContext, use } from "sst/constructs";
 
 export function AuthStack({ stack, app }: StackContext) {
